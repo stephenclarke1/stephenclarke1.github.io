@@ -5,8 +5,10 @@ html {
 }
 
 body {
-    background: rgb(249,126,112);
-    background: linear-gradient(90deg, rgba(249,126,112,1) 0%, rgba(170,0,173,1) 100%); 
+    background: rgb(88,188,130);
+    background: linear-gradient(90deg, rgba(88,188,130,1) 0%, rgba(87,103,117,1) 100%);
+    /* background: rgb(249,126,112);
+    background: linear-gradient(90deg, rgba(249,126,112,1) 0%, rgba(170,0,173,1) 100%);  */
     font-family: 'Urbanist', sans-serif;
     white-space: nowrap;
     color: #ffffff;
@@ -19,6 +21,7 @@ p {
 
 a {
     color: #ffffff;
+    padding: 4px; 
 }
 
 a:hover {
@@ -32,9 +35,13 @@ a:focus {
 
 .logo {
     font-size: .7rem;
+    min-width: 90px;
+    width: 7vw;
 }
 
 .centre {
+    overflow: hidden;
+    max-width: fit-content;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -42,8 +49,14 @@ a:focus {
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
     html {
         font-size: 20px;
+    }   
+}
+
+@media screen and (max-width: 450px) {
+    html {
+        font-size: 10px;
     }
 }
