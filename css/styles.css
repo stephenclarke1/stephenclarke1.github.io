@@ -7,8 +7,6 @@ html {
 body {
     background: rgb(88,188,130);
     background: linear-gradient(90deg, rgba(88,188,130,1) 0%, rgba(87,103,117,1) 100%);
-    /* background: rgb(249,126,112);
-    background: linear-gradient(90deg, rgba(249,126,112,1) 0%, rgba(170,0,173,1) 100%);  */
     font-family: 'Urbanist', sans-serif;
     white-space: nowrap;
     color: #ffffff;
